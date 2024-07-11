@@ -53,21 +53,17 @@ openbox --reconfigure
 * [ W + h ]       
     - TILE LEFT
 <br/>
-<br/>
 
 * [ W + j ]       
     - TILE DOWN
-<br/>
 <br/>
 
 * [ W + k ]       
     - TILE UP
 <br/>
-<br/>
 
 * [ W + l ]       
     - TILE RIGHT
-<br/>
 <br/>
 
 * [ W + \<CR> ]
