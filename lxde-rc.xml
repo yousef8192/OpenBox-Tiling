@@ -182,164 +182,6 @@
 
 
 
-
-
-<!--         <!-1- {{{ W-k -1-> -->
-<!--         <keybind key='W-k'> -->
-<!--             <action name='Raise'/> -->
-<!--             <action name='If'> -->
-<!--                 <query target='default'> -->
-<!--                     <maximized>no</maximized> -->
-<!--                     <maximizedhorizontal>yes</maximizedhorizontal> -->
-<!--                 </query> -->
-<!--                 <then> -->
-<!--                     <action name='Maximize'/> -->
-<!--                 </then> -->
-<!--                 <else> -->
-<!--                     <action name='If'> -->
-<!--                         <query target='default'> -->
-<!--                             <maximizedhorizontal>no</maximizedhorizontal> -->
-<!--                             <maximizedvertical>no</maximizedvertical> -->
-<!--                         </query> -->
-<!--                         <then> -->
-<!--                             <action name='Execute'> -->
-<!--                                 <!-1- <command>/home/yousef/other/sh/openbox-sh/tile-K.sh</command> -1-> -->
-<!--                                 <command>~/.config/openbox/openbox-sh/tile-k.sh</command> -->
-<!--                             </action> -->
-<!--                         </then> -->
-<!--                         <else> -->
-<!--                             <action name='ToggleMaximize'> -->
-<!--                                 <direction>vertical</direction> -->
-<!--                             </action> -->
-<!--                             <action name='MoveResizeTo'> -->
-<!--                                 <y>0</y> -->
-<!--                                 <width>50%</width> -->
-<!--                                 <height>50%</height> -->
-<!--                             </action> -->
-<!--                         </else> -->
-<!--                     </action> -->
-<!--                 </else> -->
-<!--             </action> -->
-<!--         </keybind> -->
-<!--         <!-1- }}} -1-> -->
-
-<!--         <!-1- {{{ W-j -1-> -->
-<!--         <keybind key='W-j'> -->
-<!--             <action name='Raise'/> -->
-<!--             <action name='If'> -->
-<!--                 <query target='default'> -->
-<!--                     <maximized>no</maximized> -->
-<!--                     <maximizedhorizontal>yes</maximizedhorizontal> -->
-<!--                 </query> -->
-<!--                 <then> -->
-<!--                     <action name='Maximize'/> -->
-<!--                 </then> -->
-<!--                 <else> -->
-<!--                     <action name='If'> -->
-<!--                         <query target='default'> -->
-<!--                             <maximizedhorizontal>no</maximizedhorizontal> -->
-<!--                             <maximizedvertical>no</maximizedvertical> -->
-<!--                         </query> -->
-<!--                         <then> -->
-<!--                             <action name='Execute'> -->
-<!--                                 <command>~/.config/openbox/openbox-sh/tile-j.sh</command> -->
-<!--                             </action> -->
-<!--                         </then> -->
-<!--                         <else> -->
-<!--                             <action name='ToggleMaximize'> -->
-<!--                                 <direction>vertical</direction> -->
-<!--                             </action> -->
-<!--                             <action name='MoveResizeTo'> -->
-<!--                                 <y>-0</y> -->
-<!--                                 <width>50%</width> -->
-<!--                                 <height>50%</height> -->
-<!--                             </action> -->
-<!--                         </else> -->
-<!--                     </action> -->
-<!--                 </else> -->
-<!--             </action> -->
-<!--         </keybind> -->
-
-<!--         <!-1- }}} -1-> -->
-
-<!--         <!-1- {{{ W-l -1-> -->
-<!--         <keybind key='W-l'> -->
-<!--             <action name='Raise'/> -->
-<!--             <action name='If'> -->
-<!--                 <query target='default'> -->
-<!--                     <maximized>no</maximized> -->
-<!--                     <maximizedvertical>yes</maximizedvertical> -->
-<!--                 </query> -->
-<!--                 <then> -->
-<!--                     <action name='Maximize'/> -->
-<!--                 </then> -->
-<!--                 <else> -->
-<!--                     <action name='If'> -->
-<!--                         <query target='default'> -->
-<!--                             <maximizedhorizontal>no</maximizedhorizontal> -->
-<!--                             <maximizedvertical>no</maximizedvertical> -->
-<!--                         </query> -->
-<!--                         <then> -->
-<!--                             <action name='Execute'> -->
-<!--                                 <command>~/.config/openbox/openbox-sh/tile-l.sh</command> -->
-<!--                             </action> -->
-<!--                         </then> -->
-<!--                         <else> -->
-<!--                             <action name='ToggleMaximize'> -->
-<!--                                 <direction>horizontal</direction> -->
-<!--                             </action> -->
-<!--                             <action name='MoveResizeTo'> -->
-<!--                                 <x>-0</x> -->
-<!--                                 <width>50%</width> -->
-<!--                                 <height>50%</height> -->
-<!--                             </action> -->
-<!--                         </else> -->
-<!--                     </action> -->
-<!--                 </else> -->
-<!--             </action> -->
-<!--         </keybind> -->
-
-<!--         <!-1- }}} -1-> -->
-
-<!--         <!-1- {{{ W-h -1-> -->
-<!--         <keybind key='W-h'> -->
-<!--             <action name='Raise'/> -->
-<!--             <action name='If'> -->
-<!--                 <query target='default'> -->
-<!--                     <maximized>no</maximized> -->
-<!--                     <maximizedvertical>yes</maximizedvertical> -->
-<!--                 </query> -->
-<!--                 <then> -->
-<!--                     <action name='Maximize'/> -->
-<!--                 </then> -->
-<!--                 <else> -->
-<!--                     <action name='If'> -->
-<!--                         <query target='default'> -->
-<!--                             <maximizedhorizontal>no</maximizedhorizontal> -->
-<!--                             <maximizedvertical>no</maximizedvertical> -->
-<!--                         </query> -->
-<!--                         <then> -->
-<!--                             <action name='Execute'> -->
-<!--                                 <command>~/.config/openbox/openbox-sh/tile-h.sh</command> -->
-<!--                             </action> -->
-<!--                         </then> -->
-<!--                         <else> -->
-<!--                             <action name='ToggleMaximize'> -->
-<!--                                 <direction>horizontal</direction> -->
-<!--                             </action> -->
-<!--                             <action name='MoveResizeTo'> -->
-<!--                                 <x>0</x> -->
-<!--                                 <width>50%</width> -->
-<!--                                 <height>50%</height> -->
-<!--                             </action> -->
-<!--                         </else> -->
-<!--                     </action> -->
-<!--                 </else> -->
-<!--             </action> -->
-<!--         </keybind> -->
-<!--         <!-1- }}} -1-> -->
-
-
     <!--........................FINAL WINDOW TILING REMAPS (WITH WALL REBOUNCE)........................{{{-->
 
 
@@ -360,7 +202,7 @@
     <else>
         <action name='If'><query target='default'><maximizedhorizontal>no</maximizedhorizontal><maximizedvertical>no</maximizedvertical></query>
         <then>
-            <action name='Execute'><command>~/.config/openbox/openbox-sh/tile-k.sh</command></action>
+            <action name='Execute'><command>~/.config/openbox/tile-k.sh</command></action>
         </then>
         <else>
             <action name='ToggleMaximize'><direction>vertical</direction></action>
@@ -385,7 +227,7 @@
     <else>
         <action name='If'><query target='default'><maximizedhorizontal>no</maximizedhorizontal><maximizedvertical>no</maximizedvertical></query>
         <then>
-            <action name='Execute'><command>~/.config/openbox/openbox-sh/tile-j.sh</command></action>
+            <action name='Execute'><command>~/.config/openbox/tile-j.sh</command></action>
         </then>
         <else>
             <action name='ToggleMaximize'><direction>vertical</direction></action>
@@ -410,7 +252,7 @@
     <else>
         <action name='If'><query target='default'><maximizedhorizontal>no</maximizedhorizontal><maximizedvertical>no</maximizedvertical></query>
         <then>
-            <action name='Execute'><command>~/.config/openbox/openbox-sh/tile-l.sh</command></action>
+            <action name='Execute'><command>~/.config/openbox/tile-l.sh</command></action>
         </then>
         <else>
             <action name='ToggleMaximize'><direction>horizontal</direction></action>
@@ -435,7 +277,7 @@
     <else>
         <action name='If'><query target='default'><maximizedhorizontal>no</maximizedhorizontal><maximizedvertical>no</maximizedvertical></query>
         <then>
-            <action name='Execute'><command>~/.config/openbox/openbox-sh/tile-h.sh</command></action>
+            <action name='Execute'><command>~/.config/openbox/tile-h.sh</command></action>
         </then>
         <else>
             <action name='ToggleMaximize'><direction>horizontal</direction></action>
@@ -640,7 +482,7 @@
         </keybind>
         <keybind key='W-w'>
             <action name='Execute'>
-                <command>~/.config/openbox/openbox-sh/open-thorium.sh</command>
+                <command>~/.config/openbox/open-thorium.sh</command>
             </action>
         </keybind>
         <keybind key='W-s'>
