@@ -38,7 +38,7 @@ cd ~/.config/openbox
 cp rc.xml rc-bk.xml
 git clone https://github.com/yousef8192/OpenBox-Tiling.git
 cd OpenBox-Tiling
-cp * ~/.config/openbox
+cp -r * ~/.config/openbox
 openbox --reconfigure
 ```
 
