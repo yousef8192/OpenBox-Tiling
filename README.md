@@ -42,7 +42,6 @@ cp * ~/.config/openbox
 openbox --reconfigure
 ```
 
-<br/>
 <!-- }}} -->
 
 <!-- {{{Usage --> 
@@ -69,9 +68,11 @@ openbox --reconfigure
 * [ W + \<CR> ]
     - TOGGLE FULLSCREEN
 
+
 <!-- }}} -->
 
 <!-- {{{Technical Details --> 
+<br/>
 
 ## Technical Details
 
@@ -85,10 +86,10 @@ openbox --reconfigure
 
 * Both windows with & without Decorations are supported
 
-<br/>
 <!-- }}} -->
 
 <!-- {{{Project DEMO --> 
+<br/>
 
 ## Project-DEMO
 
